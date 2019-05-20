@@ -1,8 +1,10 @@
 {
   "name": "c30-class-website-react",
   "version": "0.1.0",
+  "homepage": "https://warnercarpenter.github.io/cohort-30-class-website/",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hamburger-menu": "^1.1.1",
@@ -11,6 +13,8 @@
     "react-scroll-to-component": "^1.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
