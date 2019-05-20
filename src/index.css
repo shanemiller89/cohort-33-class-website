@@ -1,13 +1,193 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media(max-width:550px) {
+  body {
+    font-size: 11px;
+  }
+  ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@media(min-width:551px) {
+  body {
+    font-size: 12px;
+  }
+  ;
+}
+
+@media(min-width:750px) {
+  body {
+    font-size: 14px;
+  }
+  ;
+}
+
+@media(max-width:810px) {
+  .navText {
+    display: none;
+  }
+  .logoAndText {
+    font-size: 16px !important;
+  }
+  ;
+}
+
+@media(min-width:811px) {
+  .hamburger {
+    display: none;
+  }
+  .navDropDownContainer {
+    display: none;
+  }
+  ;
+}
+
+@media(max-width:412px) {
+  .demoText {
+    display: none;
+  }
+  ;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  Font-Family: 'Open Sans', Sans-Serif;
+  margin: 0;
+  overflow: auto;
+  transition: 0.25s;
+  background-image: url("./images/background.png");
+  background-size: cover;
+  color: white;
+  background-color: #59657B;
+}
+
+.masterContainer {
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.navBar {
+  height: 80px;
+  background-image: linear-gradient(to right, #f56a44, #f59e3b);
+  -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.navBarFix {
+  height: 80px;
+  background-color: rgb(26, 26, 26);
+}
+
+.home {
+  margin: auto;
+  z-index: 0;
+}
+
+.developers {
+  height: 900px;
+  background-color: rgb(26, 26, 26);
+  -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+}
+
+.technologies {
+  height: 900px;
+}
+
+.thanks {
+  height: 900px;
+  background-color: rgb(26, 26, 26);
+  -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+}
+
+.navTextBox {
+  margin-top: 29px;
+  margin-right: 26px;
+}
+
+.hamburger {
+  margin-top: 32px;
+  margin-right: 26px;
+}
+
+.navText {
+  font-size: 16px;
+  margin: 12px;
+  opacity: .7;
+  transition: 0.2s;
+}
+
+.logoAndText {
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: 26px;
+  line-height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logoText {
+  margin-left: 20px;
+  max-lines: 2;
+  max-height: 48px;
+  overflow: hidden;
+  min-width: 74px;
+}
+
+.navText:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.highlight {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.navDropDownContainer {
+  transition: .5s;
+  color: white;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  position: fixed;
+  top: -120px;
+  z-index: 1;
+}
+.navDropDown {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.navOpen {
+  transform: translateY(200px);
+  -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+}
+
+.navDropDownItem {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.navDropDownItem:hover {
+  cursor: pointer;
 }

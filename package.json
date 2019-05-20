@@ -5,7 +5,10 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-hamburger-menu": "^1.1.1",
+    "react-responsive-carousel": "^3.1.49",
+    "react-scripts": "3.0.1",
+    "react-scroll-to-component": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
