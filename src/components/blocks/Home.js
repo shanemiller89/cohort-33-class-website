@@ -8,7 +8,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="home">
+            <div id="home" className="home">
                 <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true} interval={5000} showStatus={false} useKeyboardArrows={true}>
                     <div>
                         <img src={serious} alt="Group 1" />

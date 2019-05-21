@@ -98,11 +98,11 @@ body {
 }
 
 .developers {
-  height: 900px;
-  background-color: rgb(26, 26, 26);
+  background-color: rgba(26, 26, 26, .9);
   -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
   box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  padding-bottom: 60px;
 }
 
 .technologies {
@@ -111,7 +111,7 @@ body {
 
 .thanks {
   height: 900px;
-  background-color: rgb(26, 26, 26);
+  background-color: rgba(26, 26, 26, .9);
   -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
   box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
@@ -190,4 +190,167 @@ body {
 
 .navDropDownItem:hover {
   cursor: pointer;
+}
+
+.darkBgTitle {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.developerCardContainer {
+  width: 90vw;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.developerCard {
+  font-size: 14px;
+  width: 260px;
+  height: 520px;
+  margin: 10px;
+  margin-top: 30px;
+  background-color: rgb(61, 61, 61);
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+}
+
+.imageHolder {
+  width: 100%;
+  height: 300px;
+}
+
+.infoContainer {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.infoContainer h3 {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.infoContainer p {
+  text-align: center;
+  color: rgb(196, 196, 196);
+  margin: 0;
+}
+
+.iconAndButtonSection {
+  margin-top: 6px;
+}
+
+.cardIconRow {
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.cardIconRow a {
+  color: white;
+}
+
+.cardIconRow svg {
+  transition: 0.15s
+}
+
+.cardIconRow svg:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.modalButton {
+  text-align: center;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: solid 1px rgba(255, 255, 255, .4);
+  border-radius: 20px;
+  transition: 0.25s;
+}
+
+.modalButton:hover {
+  cursor: pointer;
+  width: 100px;
+  border-color: rgba(255, 255, 255, 1)
+}
+
+.Tyler-Bowman {
+  background-image: url('./images/classmates/TylerBowman.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Tyler-Bowman:hover {
+  background-image: url('./images/classmates/TylerBowman_Fun.jpg');
+}
+
+.Paul-Ellis {
+  background-image: url('./images/classmates/PaulEllis.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Paul-Ellis:hover {
+  background-image: url('./images/classmates/PaulEllis_Fun.jpg');
+}
+
+.Jesse-Page {
+  background-image: url('./images/classmates/JessePage.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Jesse-Page:hover {
+  background-image: url('./images/classmates/JessePage_Fun.jpg');
+}
+
+.Lissa-Goforth {
+  background-image: url('./images/classmates/LissaGoforth.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Lissa-Goforth:hover {
+  background-image: url('./images/classmates/LissaGoforth_Fun.jpg');
+}
+
+.Greg-Lawrence {
+  background-image: url('./images/classmates/GregLawrence.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Greg-Lawrence:hover {
+  background-image: url('./images/classmates/GregLawrence_Fun.jpg');
+}
+
+.Kristen-Norris {
+  background-image: url('./images/classmates/KristenNorris.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Kristen-Norris:hover {
+  background-image: url('./images/classmates/KristenNorris_Fun.jpg');
 }

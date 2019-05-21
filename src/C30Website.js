@@ -10,8 +10,13 @@ import scrollToComponent from 'react-scroll-to-component';
 class C30Website extends Component {
 
     state = {
-        highlight: "home",
         open: false
+    }
+
+    updateDimensions() {
+        if (this.state.open === true && window.innerWidth > 810) {
+            this.setState({ open: false });
+        }
     }
 
     handleClick = () => {
@@ -26,23 +31,24 @@ class C30Website extends Component {
         });
     }
 
-    setHighlight = text => {
-        this.setState({ highlight: text })
-    }
-
     navScroll = (pageName) => {
         if (pageName === "home") {
             scrollToComponent(this.Home, { offset: 0, align: 'middle', duration: 500, ease: 'inCirc' });
         }
         if (pageName === "developers") {
-            scrollToComponent(this.Developers, { offset: 0, align: 'middle', duration: 500, ease: 'inCirc' });
+            scrollToComponent(this.Developers, { offset: 10, align: 'top', duration: 500, ease: 'inCirc' });
         }
         if (pageName === "technologies") {
-            scrollToComponent(this.Technologies, { offset: 0, align: 'middle', duration: 500, ease: 'inCirc' });
+            scrollToComponent(this.Technologies, { offset: 10, align: 'top', duration: 500, ease: 'inCirc' });
         }
         if (pageName === "thanks") {
-            scrollToComponent(this.Thanks, { offset: 0, align: 'middle', duration: 500, ease: 'inCirc' });
+            scrollToComponent(this.Thanks, { offset: 10, align: 'top', duration: 500, ease: 'inCirc' });
         }
+    }
+
+    componentDidMount() {
+        this.updateDimensions();
+        window.addEventListener("resize", this.updateDimensions.bind(this));
     }
 
     render() {

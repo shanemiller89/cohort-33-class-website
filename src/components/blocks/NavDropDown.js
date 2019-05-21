@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 class NavDropDown extends Component {
 
     handleNav = page => {
-        this.props.setHighlight(page)
         this.props.navScroll(page)
         this.props.handleClick()
     }

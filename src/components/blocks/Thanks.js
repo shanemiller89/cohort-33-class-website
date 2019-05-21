@@ -4,7 +4,7 @@ class Thanks extends Component {
 
     render() {
         return (
-            <div className="thanks"></div>
+            <div id="thanks" className="thanks"></div>
         )
     }
 }

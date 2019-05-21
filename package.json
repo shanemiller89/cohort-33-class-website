@@ -4,13 +4,19 @@
   "homepage": "https://warnercarpenter.github.io/cohort-30-class-website/",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-brands-svg-icons": "^5.8.2",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hamburger-menu": "^1.1.1",
     "react-responsive-carousel": "^3.1.49",
     "react-scripts": "3.0.1",
-    "react-scroll-to-component": "^1.0.2"
+    "react-scroll-to-component": "^1.0.2",
+    "react-scrollspy": "^3.4.0",
+    "reactstrap": "^8.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -34,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
