@@ -54,6 +54,7 @@ class C30Website extends Component {
     render() {
         return (
             <div className="masterContainer">
+                <div className="modalBg"></div>
                 <div className="navBarFix"></div>
                 <NavBar open={this.state.open} handleClick={this.handleClick} highlight={this.state.highlight} setHighlight={this.setHighlight} navScroll={this.navScroll} />
                 <div className={
