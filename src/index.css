@@ -446,7 +446,7 @@ body {
   animation-duration: 0.2s;
   display: flex;
   flex-direction: column;
-  max-height: 90vh;
+  overflow: auto;
 }
 
 .modalHeader {
@@ -483,6 +483,7 @@ body {
   .modalBody {
     flex-direction: column;
     justify-content: center;
+    height: auto;
   }
   .smallImage {
     margin: auto;
@@ -492,7 +493,7 @@ body {
   }
   .bio {
     margin-left: 20px !important;
-    max-height: 999999px !important;
+    overflow: visible !important;
   }
 
   .imageAndLinks {
