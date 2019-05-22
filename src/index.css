@@ -447,6 +447,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: auto;
+  max-height: 90vh;
 }
 
 .modalHeader {
@@ -476,7 +477,7 @@ body {
   font-size: 12px;
 }
 
-@media(max-width:560px) {
+@media screen and (max-width:560px) , screen and (max-height: 470px) {
   .modal-content {
     max-width: 400px;
   }
@@ -493,7 +494,10 @@ body {
   }
   .bio {
     margin-left: 20px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
     overflow: visible !important;
+    max-height: none !important;
   }
 
   .imageAndLinks {
@@ -572,12 +576,12 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #e6e6e6; 
+  background: #dadada; 
 }
 
 /* Handle */
@@ -588,24 +592,4 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
-}
-
-@media(max-height:492px) {
-  .modal-content {
-    zoom: 75%;
-  }
-}
-
-@media(max-height:421px) {
-  .modal-content {
-    zoom: 70% !important;
-    transform: translateY(-60%);
-  }
-}
-
-@media(max-height:328px) {
-  .modal-content {
-    zoom: 60% !important;
-    transform: translateY(-76%);
-  }
 }
