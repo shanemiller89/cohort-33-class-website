@@ -5,6 +5,7 @@ import Home from "./components/blocks/Home"
 import Developers from "./components/blocks/Developers"
 import Technologies from "./components/blocks/Technologies"
 import Thanks from "./components/blocks/Thanks"
+import Footer from "./components/blocks/Footer"
 import scrollToComponent from 'react-scroll-to-component';
 
 class C30Website extends Component {
@@ -92,6 +93,7 @@ class C30Website extends Component {
                 <Developers ref={(section) => { this.Developers = section; }} showBio={this.showBio} openModal={this.openModal} closeModalFromButton={this.closeModalFromButton} />
                 <Technologies ref={(section) => { this.Technologies = section; }} />
                 <Thanks ref={(section) => { this.Thanks = section; }} />
+                <Footer ref={(section) => { this.Footer = section; }} />
             </div>
         )
     }
