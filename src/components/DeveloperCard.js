@@ -21,10 +21,34 @@ class DeveloperCard extends Component {
                             <a href={this.props.info.linkedIn} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faLinkedin} /></a>
                             <a href={"mailto: " + this.props.info.email} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faEnvelope} /></a>
                         </div>
-                        <div className="modalButton">Learn More</div>
+                        <div className="modalButton" onClick={() => this.props.openModal("modal-" + this.props.info.id)}>Learn More</div>
+                        <div id={"modal-" + this.props.info.id} className="modal">
+
+                            <div className="modal-content">
+                                <div className="modalHeader">
+                                    <div className="modalTitle">{this.props.info.firstName} {this.props.info.lastName}</div>
+                                    <div id={"modalClose-" + this.props.info.id} className="close" onClick={() => this.props.closeModalFromButton("modal-" + this.props.info.id)}>&times;</div>
+                                </div>
+                                <div className="modalBody">
+                                    <div className="imageAndLinks">
+                                        <div className={this.props.info.firstName + "-" + this.props.info.lastName + " imageHolder smallImage"}></div>
+                                        <div className="cardIconRow smallIconRow">
+                                            <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGlobe} /></a>
+                                            <a href={this.props.info.github} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGithub} /></a>
+                                            <a href={this.props.info.linkedIn} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faLinkedin} /></a>
+                                            <a href={"mailto: " + this.props.info.email} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faEnvelope} /></a>
+                                        </div>
+                                    </div>
+                                    <div className="bio">
+                                        {this.props.info.bio}
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div >
         )
     }
 }

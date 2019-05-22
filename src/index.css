@@ -46,7 +46,6 @@
   ;
 }
 
-
 html {
   height: 100%
 }
@@ -184,6 +183,7 @@ body {
   top: -120px;
   z-index: 1;
 }
+
 .navDropDown {
   margin-top: 16px;
   margin-bottom: 20px;
@@ -320,6 +320,10 @@ body {
   background-image: url('./images/classmates/TylerBowman_Fun.jpg');
 }
 
+.Tyler-Bowman.smallImage {
+  background-image: url('./images/classmates/TylerBowman_Fun.jpg')
+}
+
 .Paul-Ellis {
   background-image: url('./images/classmates/PaulEllis.jpg');
   background-size: cover;
@@ -327,6 +331,10 @@ body {
 }
 
 .Paul-Ellis:hover {
+  background-image: url('./images/classmates/PaulEllis_Fun.jpg');
+}
+
+.Paul-Ellis.smallImage {
   background-image: url('./images/classmates/PaulEllis_Fun.jpg');
 }
 
@@ -340,6 +348,10 @@ body {
   background-image: url('./images/classmates/JessePage_Fun.jpg');
 }
 
+.Jesse-Page.smallImage {
+  background-image: url('./images/classmates/JessePage_Fun.jpg');
+}
+
 .Lissa-Goforth {
   background-image: url('./images/classmates/LissaGoforth.jpg');
   background-size: cover;
@@ -347,6 +359,10 @@ body {
 }
 
 .Lissa-Goforth:hover {
+  background-image: url('./images/classmates/LissaGoforth_Fun.jpg');
+}
+
+.Lissa-Goforth.smallImage {
   background-image: url('./images/classmates/LissaGoforth_Fun.jpg');
 }
 
@@ -360,6 +376,10 @@ body {
   background-image: url('./images/classmates/GregLawrence_Fun.jpg');
 }
 
+.Greg-Lawrence.smallImage {
+  background-image: url('./images/classmates/GregLawrence_Fun.jpg');
+}
+
 .Kristen-Norris {
   background-image: url('./images/classmates/KristenNorris.jpg');
   background-size: cover;
@@ -368,4 +388,223 @@ body {
 
 .Kristen-Norris:hover {
   background-image: url('./images/classmates/KristenNorris_Fun.jpg');
+}
+
+.Kristen-Norris.smallImage {
+  background-image: url('./images/classmates/KristenNorris_Fun.jpg');
+}
+
+.smallImage {
+  width: 200px;
+  min-width: 200px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 7px 7px 40px -3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 40px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 40px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 3;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 85%;
+  max-width: 600px;
+  -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+  animation-name: animatetop;
+  animation-duration: 0.2s;
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+}
+
+.modalHeader {
+  height: 60px;
+  width: 100%;
+  background-color: #F58440;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 4;
+  -webkit-box-shadow: 0px 7px 23px -13px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 7px 23px -13px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 7px 23px -13px rgba(0, 0, 0, 0.3);
+}
+
+.modalBody {
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  flex-grow: 1;
+  background-image: url("./images/background.png");
+  background-size: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(88, 88, 88);
+  font-size: 12px;
+}
+
+@media(max-width:560px) {
+  .modal-content {
+    max-width: 400px;
+  }
+  .modalBody {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .smallImage {
+    margin: auto;
+    width: 150px;
+    min-width: 150px;
+    height: 225px;
+  }
+  .bio {
+    margin-left: 20px !important;
+    max-height: 999999px !important;
+  }
+
+  .imageAndLinks {
+    margin-bottom: 0px !important;
+    max-height: 270px;
+  }
+}
+
+.imageAndLinks {
+  margin: 20px;
+  height: 344px;
+}
+
+.smallIconRow {
+  min-width: 180px;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.smallIconRow svg {
+  color: rgb(26, 26, 26);
+  margin: 4px;
+
+}
+
+.bio {
+  border-radius: 4px;
+  max-height: 310px;
+  overflow: auto;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.modalTitle {
+  line-height: 60px;
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Add Animation */
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 50%;
+    opacity: 1
+  }
+}
+
+/* The Close Button */
+
+.close {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+  transition: 0.15s;
+}
+
+.close:hover, .close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1)
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e6e6e6; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@media(max-height:492px) {
+  .modal-content {
+    zoom: 75%;
+  }
+}
+
+@media(max-height:421px) {
+  .modal-content {
+    zoom: 70% !important;
+    transform: translateY(-60%);
+  }
+}
+
+@media(max-height:328px) {
+  .modal-content {
+    zoom: 60% !important;
+    transform: translateY(-76%);
+  }
 }

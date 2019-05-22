@@ -13,6 +13,14 @@ class C30Website extends Component {
         open: false
     }
 
+    openModal = id => {
+        document.getElementById(id).style.display = "block"
+    }
+
+    closeModalFromButton = id => {
+        document.getElementById(id).style.display = "none"
+    }
+
     updateDimensions() {
         if (this.state.open === true && window.innerWidth > 810) {
             this.setState({ open: false });
@@ -49,12 +57,16 @@ class C30Website extends Component {
     componentDidMount() {
         this.updateDimensions();
         window.addEventListener("resize", this.updateDimensions.bind(this));
+        window.onclick = function(event) {
+            if (event.target.id.split("-")[0] === "modal") {
+              document.getElementById(event.target.id).style.display = "none";
+            }
+          }
     }
 
     render() {
         return (
             <div className="masterContainer">
-                <div className="modalBg"></div>
                 <div className="navBarFix"></div>
                 <NavBar open={this.state.open} handleClick={this.handleClick} highlight={this.state.highlight} setHighlight={this.setHighlight} navScroll={this.navScroll} />
                 <div className={
@@ -65,7 +77,7 @@ class C30Website extends Component {
                     <NavDropDown setHighlight={this.setHighlight} navScroll={this.navScroll} handleClick={this.handleClick} />
                 </div>
                 <Home ref={(section) => { this.Home = section; }} />
-                <Developers ref={(section) => { this.Developers = section; }} />
+                <Developers ref={(section) => { this.Developers = section; }} openModal={this.openModal} closeModalFromButton={this.closeModalFromButton}/>
                 <Technologies ref={(section) => { this.Technologies = section; }} />
                 <Thanks ref={(section) => { this.Thanks = section; }} />
             </div>

@@ -7,12 +7,12 @@ class Developers extends Component {
     render() {
         return (
             <div id="developers" className="developers">
-                <h1 className="darkBgTitle">The Developers</h1>
+                <h1 className="darkBgTitle">Developers</h1>
 
                 <div className="developerCardContainer">
                     {
                         cohort.map(developer => {
-                            return <DeveloperCard key={developer.id} info={developer} />
+                            return <DeveloperCard openModal={this.props.openModal} closeModalFromButton={this.props.closeModalFromButton} key={developer.id} info={developer} />
                         })
                     }
                 </div>
