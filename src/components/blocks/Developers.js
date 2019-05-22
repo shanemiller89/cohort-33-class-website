@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import cohort from "../../data/Cohort.js"
 import DeveloperCard from "../DeveloperCard"
+import { isMobile } from 'react-device-detect';
 
 class Developers extends Component {
 
@@ -9,13 +10,24 @@ class Developers extends Component {
             <div id="developers" className="developers">
                 <h1 className="darkBgTitle">Developers</h1>
 
-                <div className="developerCardContainer">
-                    {
-                        cohort.map(developer => {
-                            return <DeveloperCard openModal={this.props.openModal} closeModalFromButton={this.props.closeModalFromButton} key={developer.id} info={developer} />
-                        })
-                    }
-                </div>
+                {
+                    (!isMobile) ?
+                        <div className="developerCardContainer">
+                            {
+                                cohort.map(developer => {
+                                    return <DeveloperCard showBio={this.props.showBio} openModal={this.props.openModal} closeModalFromButton={this.props.closeModalFromButton} key={developer.id} info={developer} />
+                                })
+                            }
+                        </div> :
+                        <div className="developerCardContainer cardContainerMobile">
+                            {
+                                cohort.map(developer => {
+                                    return <DeveloperCard showBio={this.props.showBio} openModal={this.props.openModal} closeModalFromButton={this.props.closeModalFromButton} key={developer.id} info={developer} />
+                                })
+                            }
+                        </div>
+
+                }
 
             </div>
         )

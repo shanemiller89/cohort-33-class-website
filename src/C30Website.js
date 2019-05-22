@@ -6,7 +6,6 @@ import Developers from "./components/blocks/Developers"
 import Technologies from "./components/blocks/Technologies"
 import Thanks from "./components/blocks/Thanks"
 import scrollToComponent from 'react-scroll-to-component';
-import {isBrowser} from 'react-device-detect';
 
 class C30Website extends Component {
 
@@ -15,8 +14,18 @@ class C30Website extends Component {
     }
 
     openModal = id => {
-        if (isBrowser) {
-            document.getElementById(id).style.display = "block"
+        document.getElementById(id).style.display = "block"
+    }
+
+    showBio = (id, buttonId, infoContainerId, reelThemInId) => {
+        document.getElementById(id).classList.toggle("hidden")
+        document.getElementById(reelThemInId).classList.toggle("hidden")
+        document.getElementById(infoContainerId).classList.toggle("infoContainerFix")
+        if (document.getElementById(buttonId).innerHTML === "Read Bio") {
+            document.getElementById(buttonId).innerHTML = "Close"
+        }
+        else {
+            document.getElementById(buttonId).innerHTML = "Read Bio"
         }
     }
 
@@ -60,11 +69,11 @@ class C30Website extends Component {
     componentDidMount() {
         this.updateDimensions();
         window.addEventListener("resize", this.updateDimensions.bind(this));
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (event.target.id.split("-")[0] === "modal") {
-              document.getElementById(event.target.id).style.display = "none";
+                document.getElementById(event.target.id).style.display = "none";
             }
-          }
+        }
     }
 
     render() {
@@ -80,7 +89,7 @@ class C30Website extends Component {
                     <NavDropDown setHighlight={this.setHighlight} navScroll={this.navScroll} handleClick={this.handleClick} />
                 </div>
                 <Home ref={(section) => { this.Home = section; }} />
-                <Developers ref={(section) => { this.Developers = section; }} openModal={this.openModal} closeModalFromButton={this.closeModalFromButton}/>
+                <Developers ref={(section) => { this.Developers = section; }} showBio={this.showBio} openModal={this.openModal} closeModalFromButton={this.closeModalFromButton} />
                 <Technologies ref={(section) => { this.Technologies = section; }} />
                 <Thanks ref={(section) => { this.Thanks = section; }} />
             </div>

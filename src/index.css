@@ -221,11 +221,25 @@ body {
   flex-wrap: wrap;
 }
 
+.cardContainerMobile {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBio {
+  color: rgb(196, 196, 196);
+  margin: 10px;
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
 .developerCard {
   font-size: 14px;
+  min-height: 500px;
   width: 260px;
   min-width: 260px;
-  height: 520px;
   margin: 10px;
   margin-top: 30px;
   background-color: rgb(61, 61, 61);
@@ -243,12 +257,16 @@ body {
 }
 
 .infoContainer {
-  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 16px;
   padding-right: 16px;
+  min-height: 200px;
+}
+
+.infoContainerFix {
+  min-height: 0;
 }
 
 .infoContainer h3 {
@@ -591,4 +609,8 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+.hidden {
+  display: none;
 }
