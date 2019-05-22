@@ -6,6 +6,7 @@ import Developers from "./components/blocks/Developers"
 import Technologies from "./components/blocks/Technologies"
 import Thanks from "./components/blocks/Thanks"
 import scrollToComponent from 'react-scroll-to-component';
+import {isBrowser} from 'react-device-detect';
 
 class C30Website extends Component {
 
@@ -14,7 +15,9 @@ class C30Website extends Component {
     }
 
     openModal = id => {
-        document.getElementById(id).style.display = "block"
+        if (isBrowser) {
+            document.getElementById(id).style.display = "block"
+        }
     }
 
     closeModalFromButton = id => {
