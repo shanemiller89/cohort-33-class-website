@@ -447,7 +447,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: auto;
-  max-height: 90vh;
+  max-height: 90%;
 }
 
 .modalHeader {
