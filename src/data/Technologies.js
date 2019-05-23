@@ -84,6 +84,11 @@
         "name": "ASP .NET MVC",
         "className": "dotnetmvc",
         "link": "https://www.asp.net/mvc"
+    },
+    {
+        "name": "Azure Data Studio",
+        "className": "azure",
+        "link": "https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-2017"
     }
 ]
 
