@@ -10,6 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
+    "react-alice-carousel": "^1.13.11",
     "react-device-detect": "^1.6.2",
     "react-dom": "^16.8.6",
     "react-hamburger-menu": "^1.1.1",
