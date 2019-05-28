@@ -19,7 +19,7 @@ class DeveloperCard extends Component {
                     <div className="iconAndButtonSection">
                         <div className="cardIconRow">
                             {
-                                (this.props.info.portfolio != "") ?
+                                (this.props.info.portfolio !== "") ?
                                     <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faGlobe} /></a> : ""
                             }
                             <a href={this.props.info.github} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faGithub} /></a>
@@ -43,7 +43,7 @@ class DeveloperCard extends Component {
                                         <div className={this.props.info.firstName + "-" + this.props.info.lastName + " imageHolder smallImage"}></div>
                                         <div className="cardIconRow smallIconRow">
                                             {
-                                                (this.props.info.portfolio != "") ?
+                                                (this.props.info.portfolio !== "") ?
                                                     <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGlobe} /></a> : ""
                                             }
                                             <a href={this.props.info.github} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGithub} /></a>
