@@ -150,7 +150,7 @@ const cohort = [
         "linkedin": "https://www.linkedin.com/in/prafullata-sonawane/",
         "github": "https://github.com/prafullatass",
         "email": "prafullatass@gmail.com",
-        "reelThemIn": "WOW WARNER IS SO COOL AND CUTE OMG",
+        "reelThemIn": "I need to send Warner a quote!",
         "bio": "To write code for software programs, solve real-world problems and provide software has always been my passion which I enjoyed  right after my graduation in computer science and engineering. Then I took time off to raise my family. My ability to help children achieve their best leads me to join as a teacher. As I'm always passionate about coding, I joined NSS to learn new technologies and excited to join as a software developer."
     },
     {
@@ -250,7 +250,7 @@ const cohort = [
         "github": "https://github.com/sc369",
         "email": "stephenc369@gmail.com",
         "reelThemIn": "If you rebuke a wise man, he will love you. The Book of Proverbs",
-        "bio": ""
+        "bio": "An apprentice software developer at Nashville Software School with experience in teaching, editing and church leadership, I am a graduate of the University of Cambridge who learns quickly and loves to explore new concepts and ideas. I am a keen amateur musician and have composed a musical, directed a choir, led church worship and played in a jazz trio. I was attracted to software development because I like solving puzzles of all kinds, and my logical mind enjoys the systematic nature of coding and debugging. There's nothing more satisfying than squashing a difficult bug."
     },
     {
         "id": 25,
@@ -268,11 +268,11 @@ const cohort = [
         "firstName": "Nathan",
         "lastName": "Sepulveda",
         "portfolio": "",
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/nathan-sepulveda-56b46aa6/",
+        "github": "https://github.com/NathanSepulveda",
         "email": "nathan@muzology.com",
         "reelThemIn": '“The process of preparing programs for a digital computer is especially attractive, not only because it can be economically and scientifically rewarding, but also because it can be an aesthetic experience much like composing poetry or music.” -Donald Knuth',
-        "bio": ""
+        "bio": "Hi, my name is Nathan. I am a musician-turned-developer currently working at Muzology. Along with my interest with software development, in my free time I explore machine learning, music tech, and interactive design. Over the course of several months while working on my Master's thesis in music, I began to realize that I love creating technology. I decided to take the plunge and study it full-time just a short time ago, and am loving it."
     }
 ]
 

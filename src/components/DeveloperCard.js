@@ -18,15 +18,18 @@ class DeveloperCard extends Component {
                     <div id={"innerBio-" + this.props.info.id} className={"innerBio hidden"}>{this.props.info.bio}</div>
                     <div className="iconAndButtonSection">
                         <div className="cardIconRow">
-                            <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faGlobe} /></a>
+                            {
+                                (this.props.info.portfolio != "") ?
+                                    <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faGlobe} /></a> : ""
+                            }
                             <a href={this.props.info.github} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faGithub} /></a>
                             <a href={this.props.info.linkedin} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faLinkedin} /></a>
                             <a href={"mailto: " + this.props.info.email} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faEnvelope} /></a>
                         </div>
                         {
                             (!isMobile) ?
-                            <div className="modalButton" onClick={() => this.props.openModal("modal-" + this.props.info.id)}>Learn More</div> :
-                            <div id={"bioButton-" + this.props.info.id} className="modalButton" onClick={() => this.props.showBio(("innerBio-" + this.props.info.id), ("bioButton-" + this.props.info.id), ("infoContainer-" + this.props.info.id), ("reelThemIn-" + this.props.info.id))}>Read Bio</div>
+                                <div className="modalButton" onClick={() => this.props.openModal("modal-" + this.props.info.id)}>Learn More</div> :
+                                <div id={"bioButton-" + this.props.info.id} className="modalButton" onClick={() => this.props.showBio(("innerBio-" + this.props.info.id), ("bioButton-" + this.props.info.id), ("infoContainer-" + this.props.info.id), ("reelThemIn-" + this.props.info.id))}>Read Bio</div>
                         }
                         <div id={"modal-" + this.props.info.id} className="modal">
 
@@ -39,7 +42,10 @@ class DeveloperCard extends Component {
                                     <div className="imageAndLinks">
                                         <div className={this.props.info.firstName + "-" + this.props.info.lastName + " imageHolder smallImage"}></div>
                                         <div className="cardIconRow smallIconRow">
-                                            <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGlobe} /></a>
+                                            {
+                                                (this.props.info.portfolio != "") ?
+                                                    <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGlobe} /></a> : ""
+                                            }
                                             <a href={this.props.info.github} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGithub} /></a>
                                             <a href={this.props.info.linkedin} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faLinkedin} /></a>
                                             <a href={"mailto: " + this.props.info.email} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faEnvelope} /></a>
