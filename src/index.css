@@ -339,94 +339,361 @@ ul {
   border-color: rgba(255, 255, 255, 1)
 }
 
-.Tyler-Bowman {
-  background-image: url('./images/classmates/TylerBowman.jpg');
+.Justina-Vickers {
+  background-image: url('./images/classmates/JustinaVickers.jpg');
   background-size: cover;
   transition: 0.25s;
 }
 
-.Tyler-Bowman:hover {
-  background-image: url('./images/classmates/TylerBowman_Fun.jpg');
+.Justina-Vickers:hover {
+  background-image: url('./images/classmates/JustinaVickers_Fun.jpg');
 }
 
-.Tyler-Bowman.smallImage {
-  background-image: url('./images/classmates/TylerBowman_Fun.jpg')
+.Justina-Vickers.smallImage {
+  background-image: url('./images/classmates/JustinaVickers_Fun.jpg')
 }
 
-.Paul-Ellis {
-  background-image: url('./images/classmates/PaulEllis.jpg');
+.Warner-Carpenter {
+  background-image: url('./images/classmates/WarnerCarpenter.jpg');
   background-size: cover;
   transition: 0.25s;
 }
 
-.Paul-Ellis:hover {
-  background-image: url('./images/classmates/PaulEllis_Fun.jpg');
+.Warner-Carpenter:hover {
+  background-image: url('./images/classmates/WarnerCarpenter_Fun.jpg');
 }
 
-.Paul-Ellis.smallImage {
-  background-image: url('./images/classmates/PaulEllis_Fun.jpg');
+.Warner-Carpenter.smallImage {
+  background-image: url('./images/classmates/WarnerCarpenter_Fun.jpg');
 }
 
-.Jesse-Page {
-  background-image: url('./images/classmates/JessePage.jpg');
+.Kirren-Covey {
+  background-image: url('./images/classmates/KirrenCovey.jpg');
   background-size: cover;
   transition: 0.25s;
 }
 
-.Jesse-Page:hover {
-  background-image: url('./images/classmates/JessePage_Fun.jpg');
+.Kirren-Covey:hover {
+  background-image: url('./images/classmates/KirrenCovey_Fun.jpg');
 }
 
-.Jesse-Page.smallImage {
-  background-image: url('./images/classmates/JessePage_Fun.jpg');
+.Kirren-Covey.smallImage {
+  background-image: url('./images/classmates/KirrenCovey_Fun.jpg');
 }
 
-.Lissa-Goforth {
-  background-image: url('./images/classmates/LissaGoforth.jpg');
+.Mo-Silvera {
+  background-image: url('./images/classmates/MoSilvera.jpg');
   background-size: cover;
   transition: 0.25s;
 }
 
-.Lissa-Goforth:hover {
-  background-image: url('./images/classmates/LissaGoforth_Fun.jpg');
+.Mo-Silvera:hover {
+  background-image: url('./images/classmates/MoSilvera_Fun.jpg');
 }
 
-.Lissa-Goforth.smallImage {
-  background-image: url('./images/classmates/LissaGoforth_Fun.jpg');
+.Mo-Silvera.smallImage {
+  background-image: url('./images/classmates/MoSilvera_Fun.jpg');
 }
 
-.Greg-Lawrence {
-  background-image: url('./images/classmates/GregLawrence.jpg');
+.Katerina-Freeman {
+  background-image: url('./images/classmates/KaterinaFreeman.jpg');
   background-size: cover;
   transition: 0.25s;
 }
 
-.Greg-Lawrence:hover {
-  background-image: url('./images/classmates/GregLawrence_Fun.jpg');
+.Katerina-Freeman:hover {
+  background-image: url('./images/classmates/KaterinaFreeman_Fun.jpg');
 }
 
-.Greg-Lawrence.smallImage {
-  background-image: url('./images/classmates/GregLawrence_Fun.jpg');
+.Katerina-Freeman.smallImage {
+  background-image: url('./images/classmates/KaterinaFreeman_Fun.jpg');
 }
 
-.Kristen-Norris {
-  background-image: url('./images/classmates/KristenNorris.jpg');
+.Panya-Farnette {
+  background-image: url('./images/classmates/PanyaFarnette.jpg');
   background-size: cover;
   transition: 0.25s;
 }
 
-.Kristen-Norris:hover {
-  background-image: url('./images/classmates/KristenNorris_Fun.jpg');
+.Panya-Farnette:hover {
+  background-image: url('./images/classmates/PanyaFarnette_Fun.jpg');
 }
 
-.Kristen-Norris.smallImage {
-  background-image: url('./images/classmates/KristenNorris_Fun.jpg');
+.Panya-Farnette.smallImage {
+  background-image: url('./images/classmates/PanyaFarnette_Fun.jpg');
+}
+
+.Abbey-Brown {
+  background-image: url('./images/classmates/AbbeyBrown.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Abbey-Brown:hover {
+  background-image: url('./images/classmates/AbbeyBrown_Fun.jpg');
+}
+
+.Abbey-Brown.smallImage {
+  background-image: url('./images/classmates/AbbeyBrown_Fun.jpg');
+}
+
+.Trevan-Young {
+  background-image: url('./images/classmates/TrevanYoung.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Trevan-Young:hover {
+  background-image: url('./images/classmates/TrevanYoung_Fun.jpg');
+}
+
+.Trevan-Young.smallImage {
+  background-image: url('./images/classmates/TrevanYoung_Fun.jpg');
+}
+
+.Connor-Bailey {
+  background-image: url('./images/classmates/ConnorBailey.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Connor-Bailey:hover {
+  background-image: url('./images/classmates/ConnorBailey_Fun.jpg');
+}
+
+.Connor-Bailey.smallImage {
+  background-image: url('./images/classmates/ConnorBailey_Fun.jpg');
+}
+
+.Dominic-Kantrude {
+  background-image: url('./images/classmates/DominicKantrude.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Dominic-Kantrude:hover {
+  background-image: url('./images/classmates/DominicKantrude_Fun.jpg');
+}
+
+.Dominic-Kantrude.smallImage {
+  background-image: url('./images/classmates/DominicKantrude_Fun.jpg');
+}
+
+.James-Farrell {
+  background-image: url('./images/classmates/JamesFarrell.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.James-Farrell:hover {
+  background-image: url('./images/classmates/JamesFarrell_Fun.jpg');
+}
+
+.James-Farrell.smallImage {
+  background-image: url('./images/classmates/JamesFarrell_Fun.jpg');
+}
+
+.Niall-Fraser {
+  background-image: url('./images/classmates/NiallFraser.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Niall-Fraser:hover {
+  background-image: url('./images/classmates/NiallFraser_Fun.jpg');
+}
+
+.Niall-Fraser.smallImage {
+  background-image: url('./images/classmates/NiallFraser_Fun.jpg');
+}
+
+.Ken-Perkerwicz {
+  background-image: url('./images/classmates/KenPerkerwicz.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Ken-Perkerwicz:hover {
+  background-image: url('./images/classmates/KenPerkerwicz_Fun.jpg');
+}
+
+.Ken-Perkerwicz.smallImage {
+  background-image: url('./images/classmates/KenPerkerwicz_Fun.jpg');
+}
+
+.Prafullata-Sonawane {
+  background-image: url('./images/classmates/PrafullataSonawane.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Prafullata-Sonawane:hover {
+  background-image: url('./images/classmates/PrafullataSonawane_Fun.jpg');
+}
+
+.Prafullata-Sonawane.smallImage {
+  background-image: url('./images/classmates/PrafullataSonawane_Fun.jpg');
+}
+
+.Ryan-Dillinger {
+  background-image: url('./images/classmates/RyanDillinger.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Ryan-Dillinger:hover {
+  background-image: url('./images/classmates/RyanDillinger_Fun.jpg');
+}
+
+.Ryan-Dillinger.smallImage {
+  background-image: url('./images/classmates/RyanDillinger_Fun.jpg');
+}
+
+.Janet-Woods {
+  background-image: url('./images/classmates/JanetWoods.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Janet-Woods:hover {
+  background-image: url('./images/classmates/JanetWoods_Fun.jpg');
+}
+
+.Janet-Woods.smallImage {
+  background-image: url('./images/classmates/JanetWoods_Fun.jpg');
+}
+
+.Antonio-Jefferson {
+  background-image: url('./images/classmates/AntonioJefferson.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Antonio-Jefferson:hover {
+  background-image: url('./images/classmates/AntonioJefferson_Fun.jpg');
+}
+
+.Antonio-Jefferson.smallImage {
+  background-image: url('./images/classmates/AntonioJefferson_Fun.jpg');
+}
+
+.Jacob-Sanders {
+  background-image: url('./images/classmates/JacobSanders.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Jacob-Sanders:hover {
+  background-image: url('./images/classmates/JacobSanders_Fun.jpg');
+}
+
+.Jacob-Sanders.smallImage {
+  background-image: url('./images/classmates/JacobSanders_Fun.jpg');
+}
+
+.Brian-Neal {
+  background-image: url('./images/classmates/BrianNeal.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Brian-Neal:hover {
+  background-image: url('./images/classmates/BrianNeal_Fun.jpg');
+}
+
+.Brian-Neal.smallImage {
+  background-image: url('./images/classmates/BrianNeal_Fun.jpg');
+}
+
+.Charles-Woodring {
+  background-image: url('./images/classmates/CharlesWoodring.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Charles-Woodring:hover {
+  background-image: url('./images/classmates/CharlesWoodring_Fun.jpg');
+}
+
+.Charles-Woodring.smallImage {
+  background-image: url('./images/classmates/CharlesWoodring_Fun.jpg');
+}
+
+.Samuel-Cronin {
+  background-image: url('./images/classmates/SamuelCronin.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Samuel-Cronin:hover {
+  background-image: url('./images/classmates/SamuelCronin_Fun.jpg');
+}
+
+.Samuel-Cronin.smallImage {
+  background-image: url('./images/classmates/SamuelCronin_Fun.jpg');
+}
+
+.Nathan-Sepulveda {
+  background-image: url('./images/classmates/NathanSepulveda.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Nathan-Sepulveda:hover {
+  background-image: url('./images/classmates/NathanSepulveda_Fun.jpg');
+}
+
+.Nathan-Sepulveda.smallImage {
+  background-image: url('./images/classmates/NathanSepulveda_Fun.jpg');
+}
+
+.Stephen-Clark {
+  background-image: url('./images/classmates/StephenClark.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Stephen-Clark:hover {
+  background-image: url('./images/classmates/StephenClark_Fun.jpg');
+}
+
+.Stephen-Clark.smallImage {
+  background-image: url('./images/classmates/StephenClark_Fun.jpg');
+}
+
+.Emmett-Schneider {
+  background-image: url('./images/classmates/EmmettSchneider.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Emmett-Schneider:hover {
+  background-image: url('./images/classmates/EmmettSchneider_Fun.jpg');
+}
+
+.Emmett-Schneider.smallImage {
+  background-image: url('./images/classmates/EmmettSchneider_Fun.jpg');
+}
+
+.Ryan-Nelson {
+  background-image: url('./images/classmates/RyanNelson.jpg');
+  background-size: cover;
+  transition: 0.25s;
+}
+
+.Ryan-Nelson:hover {
+  background-image: url('./images/classmates/RyanNelson_Fun.jpg');
+}
+
+.Ryan-Nelson.smallImage {
+  background-image: url('./images/classmates/RyanNelson_Fun.jpg');
 }
 
 .smallImage {
   width: 200px;
   min-width: 200px;
-  height: 300px;
+  height: 231px;
+  margin-top: 14px;
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-box-shadow: 7px 7px 40px -3px rgba(0, 0, 0, 0.2);
@@ -519,6 +786,7 @@ ul {
     width: 150px;
     min-width: 150px;
     height: 225px;
+    margin-top: 0;
   }
   .bio {
     margin-left: 20px !important;
@@ -700,6 +968,11 @@ a:hover {
     height: 60px;
   }
   ;
+}
+
+.designCredit {
+  font-size: 85%;
+  color: rgb(167, 167, 167)
 }
 
 .javascript {
