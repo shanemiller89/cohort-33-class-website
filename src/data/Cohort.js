@@ -46,7 +46,7 @@ const cohort = [
         "linkedin": "https://www.linkedin.com/in/MoSilvera",
         "github": "https://github.com/MoSilvera",
         "email": "MoTheDev@gmail.com",
-        "reelThemIn": "WOW WARNER IS SO COOL AND CUTE OMG",
+        "reelThemIn": '“If you want to improve, be content to be thought foolish and stupid.” ― Epictetus',
         "bio": "I have a talent for world languages and a passion for computer ones! My background in education, management, and consulting shapes the way that I engage with team members and the way I write my code. I am a driven problem solver who won't stop until a solution is found. After years of non-profit work, I saw first-hand how software can create powerful solutions for real world issues. My career track, while successful, has taken me further and further from the concrete problem-solving I love, so I decided to take the leap into tech! As someone who is dedicated to being a lifelong learner, I am lucky to have found software development, and I can't wait to take the next step in my professional journey. ",
         "proImg": "",
         "funImg": ""
