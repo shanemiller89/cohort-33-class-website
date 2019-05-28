@@ -272,7 +272,7 @@ ul {
   justify-content: space-between;
   padding-left: 16px;
   padding-right: 16px;
-  min-height: 210px;
+  height: 212px;
 }
 
 .infoContainerFix {
