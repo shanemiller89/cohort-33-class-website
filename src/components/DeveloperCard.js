@@ -20,7 +20,7 @@ class DeveloperCard extends Component {
                         <div className="cardIconRow">
                             <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faGlobe} /></a>
                             <a href={this.props.info.github} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faGithub} /></a>
-                            <a href={this.props.info.linkedIn} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faLinkedin} /></a>
+                            <a href={this.props.info.linkedin} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faLinkedin} /></a>
                             <a href={"mailto: " + this.props.info.email} target={'_blank'}><FontAwesomeIcon size={'2x'} icon={faEnvelope} /></a>
                         </div>
                         {
@@ -41,7 +41,7 @@ class DeveloperCard extends Component {
                                         <div className="cardIconRow smallIconRow">
                                             <a href={this.props.info.portfolio} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGlobe} /></a>
                                             <a href={this.props.info.github} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faGithub} /></a>
-                                            <a href={this.props.info.linkedIn} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faLinkedin} /></a>
+                                            <a href={this.props.info.linkedin} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faLinkedin} /></a>
                                             <a href={"mailto: " + this.props.info.email} target={'_blank'}><FontAwesomeIcon size={'3x'} icon={faEnvelope} /></a>
                                         </div>
                                     </div>
