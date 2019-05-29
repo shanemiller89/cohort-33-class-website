@@ -1,4 +1,5 @@
 Class Website for Cohort 30 at Nashville Software School
+View at https://warnercarpenter.github.io/cohort-30-class-website/
 
 ## To Install
 
