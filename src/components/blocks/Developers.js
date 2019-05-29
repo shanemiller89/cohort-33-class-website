@@ -17,10 +17,17 @@ class Developers extends Component {
                     (!isMobile) ?
                         <div className="developerCardContainer">
                             {
-                                cohort.map(developer => {
+                                cohort.sort(function (a, b) {
+                                    var nameA = a.lastName.toLowerCase(), nameB = b.lastName.toLowerCase();
+                                    if (nameA < nameB)
+                                        return -1
+                                    if (nameA > nameB)
+                                        return 1
+                                    return 0
+                                }).map(developer => {
                                     return <DeveloperCard showBio={this.props.showBio} openModal={this.props.openModal} closeModalFromButton={this.props.closeModalFromButton} key={developer.id} info={developer} />
-                                })
-                            }
+                            })
+                        }
                         </div> :
                         <div className="developerCardContainer cardContainerMobile">
                             {

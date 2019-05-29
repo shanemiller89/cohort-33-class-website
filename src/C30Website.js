@@ -15,7 +15,6 @@ class C30Website extends Component {
         open: false
     }
 
-
     //Enables display for modals (Not applicable on mobile or tablet devices)
     openModal = id => {
         document.getElementById(id).style.display = "block"
