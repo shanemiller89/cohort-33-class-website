@@ -150,7 +150,7 @@ const cohort = [
         "linkedin": "https://www.linkedin.com/in/prafullata-sonawane/",
         "github": "https://github.com/prafullatass",
         "email": "prafullatass@gmail.com",
-        "reelThemIn": "I need to send Warner a quote!",
+        "reelThemIn": '"I don\'t believe in taking right decisions. I take decisions and then make them right." ~ Ratan Tata',
         "bio": "To write code for software programs, solve real-world problems and provide software has always been my passion which I enjoyed  right after my graduation in computer science and engineering. Then I took time off to raise my family. My ability to help children achieve their best leads me to join as a teacher. As I'm always passionate about coding, I joined NSS to learn new technologies and excited to join as a software developer."
     },
     {
@@ -262,17 +262,6 @@ const cohort = [
         "email": "emmett.schneider@eastnash.dev",
         "reelThemIn": "\"I'm telling ya...fellas...you're gonna want that cowbell on the track.\" -Bruce Dickinson",
         "bio": "The desire to solve problems with technology led me to a career in software development after ten years in accounting and finance. I always enjoyed automating the flow of financial data through Excel spreadsheets, but I wanted to enhance my automation skills even more. In my part-time career as a communications officer in the Army National Guard, I often configured and employed out-of-the-box IT solutions. Although I enjoyed the work, I found myself wishing I could create my own custom solutions. Software development gives me the opportunity to do just that. In my first web application, Drill Travel Tracker, I was able to combine my experience as an accountant and a U.S. Army officer with my acquired skills as a software developer to solve a financial challenge thousands of National Guard and Reserve service members experience every month. I’m proud of that and excited for what the future holds."
-    },
-    {
-        "id": 26,
-        "firstName": "Nathan",
-        "lastName": "Sepulveda",
-        "portfolio": "",
-        "linkedin": "https://www.linkedin.com/in/nathan-sepulveda-56b46aa6/",
-        "github": "https://github.com/NathanSepulveda",
-        "email": "nathan@muzology.com",
-        "reelThemIn": '“The process of preparing programs for a digital computer is especially attractive, not only because it can be economically and scientifically rewarding, but also because it can be an aesthetic experience much like composing poetry or music.” -Donald Knuth',
-        "bio": "Hi, my name is Nathan. I am a musician-turned-developer currently working at Muzology. Along with my interest with software development, in my free time I explore machine learning, music tech, and interactive design. Over the course of several months while working on my Master's thesis in music, I began to realize that I love creating technology. I decided to take the plunge and study it full-time just a short time ago, and am loving it."
     }
 ]
 

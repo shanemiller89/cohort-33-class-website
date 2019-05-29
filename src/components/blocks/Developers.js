@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import cohort from "../../data/Cohort.js"
 import DeveloperCard from "../DeveloperCard"
-import { isMobile } from 'react-device-detect';
+import { isMobile } from 'react-device-detect'
+import '../../styles/Developers.css'
+import '../../styles/DeveloperImages.css'
 
 class Developers extends Component {
 
@@ -11,6 +13,7 @@ class Developers extends Component {
                 <h1 className="darkBgTitle">Developers</h1>
 
                 {
+                    //Checks device type and renders appropriate card (Modal on desktop, bio extension on mobile)
                     (!isMobile) ?
                         <div className="developerCardContainer">
                             {

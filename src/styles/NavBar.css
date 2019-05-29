@@ -1,0 +1,96 @@
+.navBar {
+    height: 80px;
+    background-image: linear-gradient(to right, #f56a44, #f59e3b);
+    -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.navBarFix {
+    height: 80px;
+    background-color: rgb(26, 26, 26);
+}
+
+.navTextBox {
+    margin-top: 29px;
+    margin-right: 26px;
+}
+
+.hamburger {
+    margin-top: 32px;
+    margin-right: 26px;
+}
+
+.navText {
+    font-size: 16px;
+    margin: 12px;
+    opacity: .7;
+    transition: 0.2s;
+}
+
+.logoAndText {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 26px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoText {
+    margin-left: 20px;
+    max-lines: 2;
+    max-height: 48px;
+    overflow: hidden;
+    min-width: 74px;
+}
+
+.navText:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.highlight {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.navDropDownContainer {
+    transition: .5s;
+    color: white;
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    position: fixed;
+    top: -120px;
+    z-index: 1;
+}
+
+.navDropDown {
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.navOpen {
+    transform: translateY(200px);
+    -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+}
+
+.navDropDownItem {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.navDropDownItem:hover {
+    cursor: pointer;
+}

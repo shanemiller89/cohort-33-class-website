@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 class NavDropDown extends Component {
 
+    //Calls scrolling function from parent container
     handleNav = page => {
         this.props.navScroll(page)
         this.props.handleClick()

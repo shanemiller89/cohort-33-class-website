@@ -7,6 +7,7 @@ import Technologies from "./components/blocks/Technologies"
 import Thanks from "./components/blocks/Thanks"
 import Footer from "./components/blocks/Footer"
 import scrollToComponent from 'react-scroll-to-component';
+import './styles/mediaqueries.css'
 
 class C30Website extends Component {
 
@@ -14,10 +15,18 @@ class C30Website extends Component {
         open: false
     }
 
+
+    //Enables display for modals (Not applicable on mobile or tablet devices)
     openModal = id => {
         document.getElementById(id).style.display = "block"
     }
 
+    //Disables display for modals (Not applicable on mobile or tablet devices)
+    closeModalFromButton = id => {
+        document.getElementById(id).style.display = "none"
+    }
+
+    //Toggles display for extended bio (Only applicable on mobile or tablet devices)
     showBio = (id, buttonId, infoContainerId, reelThemInId) => {
         document.getElementById(id).classList.toggle("hidden")
         document.getElementById(reelThemInId).classList.toggle("hidden")
@@ -30,28 +39,28 @@ class C30Website extends Component {
         }
     }
 
-    closeModalFromButton = id => {
-        document.getElementById(id).style.display = "none"
-    }
-
+    //Closes burger menu when screen width exceeds 810px
     updateDimensions() {
         if (this.state.open === true && window.innerWidth > 810) {
             this.setState({ open: false });
         }
     }
 
+    //Toggles burger menu icon open or closed
     handleClick = () => {
         this.setState({
             open: !this.state.open
         });
     }
 
+    //Toggles burger menu visible (open) or hidden (closed)
     handleDropDown = () => {
         this.setState({
             navDropDown: !this.state.navDropDown
         });
     }
 
+    //Handles scrolling for navigation
     navScroll = (pageName) => {
         if (pageName === "home") {
             scrollToComponent(this.Home, { offset: 0, align: 'middle', duration: 500, ease: 'inCirc' });

@@ -1,0 +1,287 @@
+.developers {
+    background-color: rgba(26, 26, 26, .9);
+    -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    padding-bottom: 60px;
+}
+
+.developerCardContainer {
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardContainerMobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBio {
+    color: rgb(196, 196, 196);
+    margin: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.developerCard {
+    font-size: 14px;
+    min-height: 500px;
+    width: 260px;
+    min-width: 260px;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+}
+
+.imageHolder {
+    width: 100%;
+    height: 300px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 230px;
+}
+
+.infoContainerFix {
+    min-height: 0;
+}
+
+.infoContainer h3 {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.infoContainer p {
+    text-align: center;
+    color: rgb(196, 196, 196);
+    margin: 0;
+}
+
+.iconAndButtonSection {
+    margin-top: 6px;
+}
+
+.cardIconRow {
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.cardIconRow a {
+    color: white;
+}
+
+.cardIconRow svg {
+    transition: 0.15s
+}
+
+.cardIconRow svg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.modalBg {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.modalBgActive {
+    display: block;
+}
+
+.modalButton {
+    text-align: center;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 2px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid 1px rgba(255, 255, 255, .4);
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.modalButton:hover {
+    cursor: pointer;
+    width: 100px;
+    border-color: rgba(255, 255, 255, 1)
+}
+
+.smallImage {
+    width: 200px;
+    min-width: 200px;
+    height: 231px;
+    margin-top: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 7px 7px 40px -3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 7px 7px 40px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 7px 7px 40px -3px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 85%;
+    max-width: 600px;
+    -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    animation-name: animatetop;
+    animation-duration: 0.2s;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    max-height: 90%;
+}
+
+.modalHeader {
+    height: 60px;
+    width: 100%;
+    background-color: #F58440;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 7px 23px -13px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 7px 23px -13px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 7px 23px -13px rgba(0, 0, 0, 0.3);
+}
+
+.modalBody {
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    flex-grow: 1;
+    background-image: url("../images/background.png");
+    background-size: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(88, 88, 88);
+    font-size: 12px;
+}
+
+.imageAndLinks {
+    margin: 20px;
+    height: 344px;
+}
+
+.smallIconRow {
+    min-width: 180px;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.smallIconRow svg {
+    color: rgb(26, 26, 26);
+    margin: 4px;
+}
+
+.bio {
+    border-radius: 4px;
+    max-height: 310px;
+    overflow: auto;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.modalTitle {
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 50%;
+        opacity: 1
+    }
+}
+
+.close {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: 0.15s;
+}
+
+.close:hover, .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+}
+
+div::-webkit-scrollbar {
+    width: 5px;
+}
+
+div::-webkit-scrollbar-track {
+    background: #dadada;
+}
+
+div::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../../styles/Thanks.css'
 
 class Thanks extends Component {
 

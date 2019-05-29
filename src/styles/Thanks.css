@@ -1,0 +1,23 @@
+.thanks {
+    background-color: rgba(26, 26, 26, .9);
+}
+
+.thanksText {
+    color: rgb(196, 196, 196);
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(61, 61, 61);
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+}
+
+.designCredit {
+    font-size: 85%;
+    color: rgb(167, 167, 167)
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import technologies from '../../data/Technologies';
+import technologies from '../../data/Technologies'
+import '../../styles/Technologies.css'
 
 class Technologies extends Component {
 

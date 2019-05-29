@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import logo from "../../images/logo.png"
 import HamburgerMenu from 'react-hamburger-menu'
 import Scrollspy from 'react-scrollspy'
+import '../../styles/NavBar.css'
 
 
 class NavBar extends Component {
 
+    //Calls nav scrolling fucntion from parent container
     handleNav = page => {
         this.props.navScroll(page)
     }

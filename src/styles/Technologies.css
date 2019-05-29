@@ -1,0 +1,112 @@
+.technologyCardContainer {
+    color: rgb(196, 196, 196);
+    width: 80%;
+    max-width: 810px;
+    max-height: 370px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: rgba(158, 157, 157, 0.2);
+    -webkit-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 7px 23px -13px rgba(0, 0, 0, 0.53);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.technologyCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.technologyImage {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.javascript {
+    background-image: url("../images/technologies/javascript.svg")
+}
+
+.reactjs {
+    background-image: url("../images/technologies/react.png")
+}
+
+.git {
+    background-image: url("../images/technologies/git.png")
+}
+
+.github {
+    background-image: url("../images/technologies/github.png")
+}
+
+.grunt {
+    background-image: url("../images/technologies/grunt.png")
+}
+
+.html5 {
+    background-image: url("../images/technologies/html5.png")
+}
+
+.css3 {
+    background-image: url("../images/technologies/css3.png")
+}
+
+.bootstrap {
+    background-image: url("../images/technologies/bootstrap.svg")
+}
+
+.browserify {
+    background-image: url("../images/technologies/browserify.png")
+}
+
+.npm {
+    background-image: url("../images/technologies/npm.png")
+}
+
+.sql {
+    background-image: url("../images/technologies/sql.png")
+}
+
+.sqlserver {
+    background-image: url("../images/technologies/sqlserver.png")
+}
+
+.vscode {
+    background-image: url("../images/technologies/vscode.png")
+}
+
+.csharp {
+    background-image: url("../images/technologies/csharp.png")
+}
+
+.dotnetcore {
+    background-image: url("../images/technologies/dotnetcore.png")
+}
+
+.visualstudio {
+    background-image: url("../images/technologies/visualstudio.png")
+}
+
+.dotnetmvc {
+    background-image: url("../images/technologies/dotnetmvc.png")
+}
+
+.azure {
+    background-image: url("../images/technologies/azure.png")
+}
