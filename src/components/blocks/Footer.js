@@ -5,7 +5,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="footer">© 2019 Nashville Software School Cohort 30<br/><span className="designCredit">Website design by Warner Carpenter</span></div>
+            <div className="footer">© 2019 Nashville Software School Cohort 33<br/><span className="designCredit">Website design by Warner Carpenter</span></div>
         )
     }
 }
