@@ -15,7 +15,7 @@ class NavBar extends Component {
     render() {
         return (
             <div className="navBar">
-                <div className="logoAndText"><div><img src={logo} alt="NSS Logo" width="50px" /></div><div className="logoText"><strong>Cohort 30</strong><span className="demoText"> | Demo Day June 21</span></div></div>
+                <div className="logoAndText"><div><img src={logo} alt="NSS Logo" width="50px" /></div><div className="logoText"><strong>Cohort 33</strong><span className="demoText"> | Demo Day November 8</span></div></div>
 
                 <div className="navTextBox">
                     <Scrollspy componentTag={'span'} items={['home', 'developers', 'technologies', 'thanks']} currentClassName="highlight">
