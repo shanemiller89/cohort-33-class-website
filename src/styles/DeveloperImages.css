@@ -265,7 +265,7 @@
 }
 
 .Melanie-Bond {
-    background-image: url('../images/classmates/MelanieBond_Fun.jpg');
+    background-image: url('../images/classmates/MelanieBond.jpg');
     background-size: cover;
     transition: 0.25s;
 }
@@ -275,7 +275,7 @@
 }
 
 .Melanie-Bond.smallImage {
-    background-image: url('../images/classmates/MelanieBond_Fun.jpg');
+    background-image: url('../images/classmates/MelanieBond.jpg');
 }
 
 .Misty-DeRamus {
