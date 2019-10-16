@@ -21,11 +21,6 @@
         "link": "https://github.com/"
     },
     {
-        "name": "Semantic UI React",
-        "className": "semantic",
-        "link": "https://react.semantic-ui.com/"
-    },
-    {
         "name": "HTML5",
         "className": "html5",
         "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
@@ -56,11 +51,6 @@
         "link": "https://www.sqlite.org/"
     },
     {
-        "name": "Firebase",
-        "className": "firebase",
-        "link": "https://firebase.google.com/"
-    },
-    {
         "name": "Visual Studio Code",
         "className": "vscode",
         "link": "https://code.visualstudio.com/"
@@ -84,11 +74,6 @@
         "name": "Postman",
         "className": "postman",
         "link": "https://www.getpostman.com/"
-    },
-    {
-        "name": "DBeaver",
-        "className": "dbeaver",
-        "link": "https://dbeaver.com/"
     }
 ]
 
