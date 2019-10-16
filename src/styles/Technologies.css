@@ -55,8 +55,8 @@
     background-image: url("../images/technologies/github.png")
 }
 
-.grunt {
-    background-image: url("../images/technologies/grunt.png")
+.semantic {
+    background-image: url("../images/technologies/semantic.png")
 }
 
 .html5 {
@@ -71,8 +71,8 @@
     background-image: url("../images/technologies/bootstrap.svg")
 }
 
-.browserify {
-    background-image: url("../images/technologies/browserify.png")
+.webpack {
+    background-image: url("../images/technologies/webpack.png")
 }
 
 .npm {
@@ -83,30 +83,30 @@
     background-image: url("../images/technologies/sql.png")
 }
 
-.sqlserver {
-    background-image: url("../images/technologies/sqlserver.png")
+.firebase {
+    background-image: url("../images/technologies/firebase.svg")
 }
 
 .vscode {
     background-image: url("../images/technologies/vscode.png")
 }
 
-.csharp {
-    background-image: url("../images/technologies/csharp.png")
+.python {
+    background-image: url("../images/technologies/python.png")
 }
 
-.dotnetcore {
-    background-image: url("../images/technologies/dotnetcore.png")
+.django {
+    background-image: url("../images/technologies/django.svg")
 }
 
-.visualstudio {
-    background-image: url("../images/technologies/visualstudio.png")
+.djangorest {
+    background-image: url("../images/technologies/djangorest.png")
 }
 
-.dotnetmvc {
-    background-image: url("../images/technologies/dotnetmvc.png")
+.postman {
+    background-image: url("../images/technologies/postman.png")
 }
 
-.azure {
-    background-image: url("../images/technologies/azure.png")
+.dbeaver {
+    background-image: url("../images/technologies/dbeaver.png")
 }

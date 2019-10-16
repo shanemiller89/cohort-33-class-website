@@ -21,9 +21,9 @@
         "link": "https://github.com/"
     },
     {
-        "name": "Grunt",
-        "className": "grunt",
-        "link": "https://gruntjs.com/"
+        "name": "Semantic UI React",
+        "className": "semantic",
+        "link": "https://react.semantic-ui.com/"
     },
     {
         "name": "HTML5",
@@ -41,9 +41,9 @@
         "link": "https://getbootstrap.com/"
     },
     {
-        "name": "Browserify",
-        "className": "browserify",
-        "link": "http://browserify.org/"
+        "name": "Webpack",
+        "className": "webpack",
+        "link": "https://webpack.js.org/"
     },
     {
         "name": "NPM",
@@ -56,9 +56,9 @@
         "link": "https://www.sqlite.org/"
     },
     {
-        "name": "SQL Server",
-        "className": "sqlserver",
-        "link": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+        "name": "Firebase",
+        "className": "firebase",
+        "link": "https://firebase.google.com/"
     },
     {
         "name": "Visual Studio Code",
@@ -66,29 +66,29 @@
         "link": "https://code.visualstudio.com/"
     },
     {
-        "name": "C#",
-        "className": "csharp",
-        "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        "name": "Django",
+        "className": "django",
+        "link": "https://www.djangoproject.com/"
     },
     {
-        "name": ".NET Core",
-        "className": "dotnetcore",
-        "link": "https://www.microsoft.com/net/"
+        "name": "Python",
+        "className": "python",
+        "link": "https://www.python.org/"
     },
     {
-        "name": "Visual Studio",
-        "className": "visualstudio",
-        "link": "https://www.visualstudio.com/vs/"
+        "name": "Django REST",
+        "className": "djangorest",
+        "link": "https://www.django-rest-framework.org/"
     },
     {
-        "name": "ASP .NET MVC",
-        "className": "dotnetmvc",
-        "link": "https://www.asp.net/mvc"
+        "name": "Postman",
+        "className": "postman",
+        "link": "https://www.getpostman.com/"
     },
     {
-        "name": "Azure Data Studio",
-        "className": "azure",
-        "link": "https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-2017"
+        "name": "DBeaver",
+        "className": "dbeaver",
+        "link": "https://dbeaver.com/"
     }
 ]
 
