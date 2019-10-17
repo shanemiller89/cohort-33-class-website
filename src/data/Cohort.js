@@ -282,9 +282,13 @@ const cohort = [
         "id": 26,
         "firstName": "Tyler",
         "lastName": "Carpenter",
+        "portfolio": "",
+        "linkedin": "https://www.linkedin.com/in/tyler-carpenter5",
         "github": "https://github.com/TylerCarpenter92",
-        "reelThemIn": ``,
-        "bio": ``
+        "email": "carpentertyler92@gmail.com",
+        "reelThemIn": `“Physics is the universe’s operating system.”
+        —Steven R Garman`,
+        "bio": `I am a full stack developer seeking a full-time position in the field of software development, where I can apply my knowledge and skills for continuous improvement. npMy passion for technology began with video games and progressed to building my own computer, and I am looking forward to further pursuing that interest through working in web development.`
     }
 ]
 
