@@ -1,7 +1,7 @@
-Class Website for Cohort 30 at Nashville Software School.
-Designed and built by Warner Carpenter.
+Class Website for Cohort 33 at Nashville Software School.
 
-View at https://nss-day-cohort-30.github.io/class-website/
+
+View at https://nss-day-cohort-33.github.io/c33ClassWebsite/
 
 ## To Install
 
